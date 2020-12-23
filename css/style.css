@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #f4f4f4;
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+.showcase {
+  background-color: #232F3E;
+  color: #fff;
+  height: 60rem;
+}
+
+.showcase nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.showcase nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.showcase nav li {
+  padding: 1.5rem;
+}
+
+.showcase nav a {
+  color: #fff;
+}
+
+.showcase nav a:hover {
+  color: #1652F0;
+}
+
+.showcase-content {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3rem;
+}
+
+.showcase-content img {
+  width: 50%;
+}
+
+.showcase-content h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.container {
+  max-width: 110rem;
+  padding: 0 .3rem;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.my-1 {
+  margin: 1rem;
+}
+
+.p-1 {
+  padding: 1rem 0;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.my-2 {
+  margin: 2rem;
+}
+
+.p-2 {
+  padding: 2rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.my-3 {
+  margin: 3rem;
+}
+
+.p-3 {
+  padding: 3rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+.my-4 {
+  margin: 4rem;
+}
+
+.p-4 {
+  padding: 4rem 0;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.m-5 {
+  margin: 5rem;
+}
+
+.my-5 {
+  margin: 5rem;
+}
+
+.p-5 {
+  padding: 5rem 0;
+}
+
+.py-5 {
+  padding: 5rem 0;
+}
+
+.btn-primary, .btn-secondary {
+  display: inline-block;
+  border-radius: .5rem;
+  padding: .8rem 2.0rem;
+  margin: .3rem;
+}
+
+.btn-primary {
+  background-color: #35485f;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #4676f3;
+  color: #fff;
+}
+
+@media (max-width: 70rem) {
+  .showcase {
+    height: 40rem;
+  }
+  .showcase-content {
+    text-align: center;
+  }
+  .showcase-content img {
+    display: none;
+  }
+}
